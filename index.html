@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>HBD Cantik 🤗</title>
+  <link rel="icon" href="kue_3.png">
+</head>
+<body>
+  <div id="kotak-pesan">
+    <div class="pesan">
+      Hay > <span id="nama"></span> ada ucapan ni dari <span id="nama2"></span>
+      <button onclick="exit()">Oke</button>
+    </div>
+  </div>
+  <audio src="lagu.mp3"  id="musik"></audio>
+  
+  <div class="bg">
+    <div class="content" id="content">
+      <div class="atas" id="atas">
+        <img src="kue_3.png" alt="" id="gambar">
+      </div>
+      <div class="bawah" id="bawah">
+        <p id="ucapan"></p>
+        <button id="btn" onclick="gantiGambar(this)">Tiup lilinnya</button>
+        <button id="btn_2" onclick="ucapanCetak()">next</button>
+        <button id="btn_3" onclick="hapusKue()">next</button>
+        <a id="link" >kasih pesan buat yang ngucapin</a>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
